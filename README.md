@@ -86,6 +86,7 @@ This is a SpringBoot + MongoDB Project , which is using
 # End Points for Product Service:-
 
 1. localhost:8080/products/addProduct
+
 {
         "id": 111,
         "productType": "Action Figures",
@@ -95,6 +96,7 @@ This is a SpringBoot + MongoDB Project , which is using
 
 
 2. localhost:8080/products/findAllProducts
+
 [
     {
         "id": 111,
@@ -125,6 +127,7 @@ This is a SpringBoot + MongoDB Project , which is using
 ]
 
 3. localhost:8080/products/findProduct/111
+
 {
     "id": 111,
     "productType": "Action Figures",
@@ -132,6 +135,7 @@ This is a SpringBoot + MongoDB Project , which is using
 }
 
 localhost:8080/products/deleteProduct/444
+
 product deleted product having product id as: 444
 
 
